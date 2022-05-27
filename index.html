@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+
+    <link rel="stylesheet" href="assets/CSS/index.css">
+    
+
+</head>
+<body>
+
+    <header class="header">
+        <h1>Notes</h1>
+    </header>
+
+    <aside class="aside" id="aside">
+        <div class="btns-container">
+            <a class="night-light-mood" id="night-light-mood">Night mood <img src="assets/Images/Icons/moon.png" id="sun-moon-icon" width="20" height="auto"></a>
+            <a class="del-note" id="del-notes">Delete Note <span>-</span></a>
+            <div class="left-icon-container" id="left-icon-container">
+                <img src="assets/Images/Icons/left.png" class="to-right">
+            </div>
+        </div>
+    </aside>
+
+    <main class="main" id="main">
+        <section class="notes-container" id="notes-container">
+            <div class="add-note" id="add-icon" onclick="addNoteEvent()">+</div>
+        </section>
+
+        <div class="checked-els-settings-btns del-checked-els" id="del-checked-els"><p>Delete</p></div>
+        <div class="checked-els-settings-btns check-all-els" id="check-all-els"><p>Select all</p></div>
+        <div class="checked-els-settings-btns cancel-checked-els" id="cancel-checked-els"><p>Cancel</p></div>
+
+    </main>
+
+    <script src="assets/JavaScript/index.js"></script>
+</body>
+</html>
